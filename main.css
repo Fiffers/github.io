@@ -1,0 +1,73 @@
+html {
+  background-color: white;
+  margin: 0;
+  font-family: calibri, serif;
+}
+header{
+  text-align: center;
+  font-size: 18pt;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+div.js-quiz-container, div.js-start-container{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  min-width: 280px;
+  border-radius: 5px;
+}
+.js-score-container, .js-end-of-quiz, .js-last-question{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  min-width: 280px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.js-begin-quiz-button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.span-disclaimer{
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 10px;
+}
+.js-question-span{
+  width: 100%;
+  float: left;
+  margin: 0px;
+  font-size: 14pt;
+  font-weight: bold;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+}
+.js-quiz-form{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+input{
+  position: relative;
+  top: 1px;
+}
+
+.js-buttons{
+  display: inline-block;
+  margin: 10px 0px 10px 5px;
+}
+.js-last-question{
+  font-weight: bold;
+  font-style: italic;
+}
+.hidden {
+  display: none;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <meta charset="utf-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      Aviation Instructor Handbook: Psychology of Learning Quiz
+    </header>
+    <div class="js-start container">
+      <button type="button" name="button" class="js-begin-quiz-button">Begin Quiz</button>
+    </div>
+    <div class="hidden js-quiz-container"></div>
+    <div class="hidden js-last-question"></div>
+    <div class="hidden js-score-container">
+      <h4 class="js-score">Current Score: 0/10</h4>
+    </div>
+    <div class="hidden js-end-of-quiz"></div>
+    <span class="span-disclaimer">All questions are taken from the
+      <a href="https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/aviation_instructors_handbook/media/faa-h-8083-9a.pdf">
+         Aviation Instructors Handbook</a>
+    </span>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</html>
